@@ -19,8 +19,7 @@ cd alpinelinux-install-xray
 # 安装
 
 ```sh
-chmod u+x install.sh
-./install.sh
+chmod u+x install.sh && ./install.sh
 ```
 
 # 启动
