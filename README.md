@@ -24,6 +24,8 @@ chmod u+x install.sh && ./install.sh
 
 # 启动
 
+包含杀死之前的 xray 进程。
+
 ```sh
 ./start.sh
 ```
