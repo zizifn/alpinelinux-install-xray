@@ -2,6 +2,8 @@
 
 set -euxo pipefail
 
+chmod u+x start.sh
+
 # Identify architecture
 case "$(arch -s)" in
     'i386' | 'i686')
