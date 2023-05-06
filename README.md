@@ -13,7 +13,7 @@ git clone
 # 进入目录
 
 ```sh
-cd alpinelinux-install-xray
+cd alpinelinux-install-xray && git pull
 ```
 
 # 安装
@@ -24,6 +24,25 @@ chmod u+x install.sh && ./install.sh
 
 # 启动
 
-    ```sh
-    ./start.sh
-    ```
+```sh
+./start.sh
+```
+
+# 查看启动记录和端口
+
+```sh
+cat ./log.txt
+
+```
+
+访问自己的 IP 和端口查看
+
+# 额外命令，查看启动命令。不需要用
+
+```sh
+ps aux
+```
+
+一般会找到下面的显示。
+
+`8464 root      0:00 ./xray/xray -c server.json`
